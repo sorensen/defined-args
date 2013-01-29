@@ -33,7 +33,7 @@ var root = this
  * Current library version, should match `package.json`
  */
 
-da.VERSION = '0.0.1'
+da.VERSION = '0.0.2'
 
 /**
  * Find the first argument of a given type in an arguments list

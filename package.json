@@ -2,7 +2,7 @@
   "author": "Beau Sorensen <mail@beausorensen.com> (http://github.com/sorensen)"
 , "name": "da"
 , "description": "First, last, or not argument getter for a given type"
-, "version": "0.0.1"
+, "version": "0.0.2"
 , "repository": {
     "type": "git"
   , "url": "git://github.com/sorensen/defined-args.git"
