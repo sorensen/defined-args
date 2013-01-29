@@ -48,6 +48,7 @@ da.VERSION = '0.0.1'
  */
 
 da.first = function(type) {
+  type = (type || '').toLowerCase()
   var args = slice.call(arguments, 1)
   for (var i = 0; i !== args.length; i++) {
     if (toString.call(args[i]) === map[type]) return args[i]
@@ -67,6 +68,7 @@ da.first = function(type) {
  */
 
 da.last = function(type) {
+  type = (type || '').toLowerCase()
   var args = slice.call(arguments, 1, arguments.length)
     , args = [type].concat(args.reverse())
   return da.first.apply(null, args)
@@ -85,6 +87,7 @@ da.last = function(type) {
  */
 
 da.not = function(type) {
+  type = (type || '').toLowerCase()
   var args = slice.call(arguments, 1)
   for (var i = 0; i !== args.length; i++) {
     if (toString.call(args[i]) !== map[type]) return args[i]
