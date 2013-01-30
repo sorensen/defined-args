@@ -4,16 +4,18 @@ Defined Args
 
 A small utility for grabing arguments of a specified type.
 
+Inspired from [tblobaum](https://github.com/tblobaum)'s [rconsole](https://github.com/tblobaum/rconsole)'s [defined](https://github.com/tblobaum/rconsole/blob/master/rconsole.js#L312-L316) method
+
 Usage
 -----
 
-Node.js 
+Node.js
 
 ``` js
 var da = require('da')
 ```
 
-Browser 
+Browser
 
 ``` html
 <script src="da.js"></script>

@@ -2,7 +2,7 @@
  * (c) 2012 Beau Sorensen
  * MIT Licensed
  * For all details and documentation:
- * https://github.com/sorensen/typed-args
+ * https://github.com/sorensen/defined-args
  */
 
 ;(function() {
@@ -33,7 +33,7 @@ var root = this
  * Current library version, should match `package.json`
  */
 
-da.VERSION = '0.0.2'
+da.VERSION = '0.0.3'
 
 /**
  * Find the first argument of a given type in an arguments list
