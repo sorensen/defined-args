@@ -2,6 +2,8 @@
 Defined Args
 ============
 
+[![Build Status](https://secure.travis-ci.org/sorensen/defined-args.png)](http://travis-ci.org/sorensen/defined-args) 
+
 A small utility for grabing arguments of a specified type.
 
 Inspired from [tblobaum](https://github.com/tblobaum)'s [rconsole](https://github.com/tblobaum/rconsole)'s [defined](https://github.com/tblobaum/rconsole/blob/master/rconsole.js#L312-L316) method
